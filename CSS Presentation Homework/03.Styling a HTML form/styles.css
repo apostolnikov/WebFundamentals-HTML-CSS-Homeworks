@@ -1,0 +1,116 @@
+img {
+    width: 20px;
+    height: 16px;
+}
+
+html{
+    font-family: "Segoe UI", "Helvetica", "Tahoma", San-serif;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+h3 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+form{
+    /*background*/
+    background-image: url("images/formBackground.jpg");
+    /*size*/
+    display: inline-block;
+    /*border*/
+    border-radius: 5px;
+    /*padding and margin*/
+    padding: 20px;
+}
+
+form div{
+    /*background*/
+    background-color: rgba(128,162,195, 0.7);
+    /*border*/
+    border: solid 1px #C4D6E7;
+    border-radius: 5px;
+    /*padding and margin*/
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+form div label{
+    display: inline-block;
+    width: 150px ;
+}
+
+form div input, form div textarea{
+    /*size*/
+    width: 200px;
+    height: 20px;
+    /*background*/
+    background-color: rgba(255,255,255, 0.8);
+    /*border*/
+    border: none;
+    border-radius: 5px;
+    /*padding and margin*/
+    padding: 5px;
+    margin-right: 130px;
+}
+
+fieldset fieldset {
+    color: #000000;
+    font-weight: normal;
+}
+
+fieldset fieldset legend{
+    color: #000000;
+    font-weight: normal;
+}
+
+.radioLabel{
+    margin: 0;
+    display: inline;
+    padding: 15px 50px 0 5px;
+}
+
+#Visa, #AmEx, #Mastercard {
+    width: 13px;
+    /*background*/
+    background-color: rgba(255,255,255, 0.8);
+    /*border*/
+    border: none;
+    /*padding and margin*/
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+
+form div textarea{
+    height: 100px;
+    vertical-align: top;
+}
+
+form div input:focus, form div textarea:focus {
+    /*background*/
+    background-color: rgba(255,255,255, 1);
+}
+
+input[type=submit]{
+    background: #04152F;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: none;
+}
+
+.button{
+    display: block;
+    text-align: center;
+    align-content: center;
+}

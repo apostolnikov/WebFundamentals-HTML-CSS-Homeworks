@@ -1,0 +1,103 @@
+section{
+    width: 580px;
+    height: 430px;
+    background-color: #FFB5EB;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+}
+p {
+    margin-bottom: 5px;
+    display: inline;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+#leftArticle p {
+    margin-left: 10px;
+}
+
+#leftArticle{
+    display: inline-block;
+    width: 280px;
+    float: left;
+}
+
+#leftArticle input,#leftArticle select{
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 26px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    display: inline;
+    
+    
+    
+}
+#leftArticle #fromCity{
+    height: 28px;
+    margin-bottom: 30px;
+}
+
+#leftArticle #return{
+    margin-bottom: 10px;
+}
+
+#subLeftArticle input{
+    width: 65px;
+    height: 22px;
+}
+
+#subLeftArticle label {
+    margin-right: 48px;
+    margin-left: 12px;
+}
+
+#rightArticle{
+    float: left;
+    display: inline-block;
+    width: 300px;
+    
+}
+#rightArticle input, #rightArticle select{
+    display: inline;
+    width: 250px;
+    height: 28px;
+    
+}
+#rightArticle #checkbox{
+    height: 12px;
+    width: 12px;
+    margin-bottom: 15px;
+}
+#toCity {
+    margin-top: 6px;
+}
+
+#rightArticle input[type=time]{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    width: 120px;
+}
+
+#classChose{
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+button{
+    width: 250px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 17px;
+}

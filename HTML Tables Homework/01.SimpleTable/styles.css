@@ -1,0 +1,21 @@
+table {
+    border: 1px solid grey;
+    
+    
+}
+thead th {
+    font-size: 50px;
+    text-align: left;
+    height: 10px;
+    font-family: sans-serif;
+    
+}
+
+p {
+    font-family: sans-serif;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,106 @@
+section{
+    background-color: #E8E8E8;
+    width: 600px;
+    height: 360px;
+    
+}
+
+p{
+    color: #666666;
+}
+
+span {
+    color: #234465;
+    font-weight: bold;
+    font-size: 25px;
+}
+#rightArticle span {
+    font-size: 17px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+#rightArticle input{
+    width: 270px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+
+#regspan {
+    font-size: 20px;
+}
+
+#leftArticle{
+    float: left;
+    color: #666666;
+    font-weight: 600;
+    
+    
+}
+#leftArticle input{
+    width: 240px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+#leftArticle #register{
+    width: 120px;
+    float:right;
+    color: #234465;
+    border: 2px solid #234465;
+    font-weight: 500;
+    
+}
+
+#leftArticle p{
+    font-weight: bold;
+    display: inline;
+    margin-right: 5px;
+}
+
+#rightArticle{
+    display: inline-block;
+    background-color: #234465;
+    color: #FFF;
+    height: 250px;
+}
+
+#rightArticle span{
+    color: #FFF;
+}
+
+#rightArticle a{
+    color: #FFF;
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+}
+#rightArticle #login{
+    float: right;
+    display: inline-block;
+    color: #FFF;
+    background-color: #234465;
+    border: 1px solid #FF9C00;
+    width: 88px;
+    height: auto;
+    padding: 5px;
+}
+#rightArticle #remember{
+    float: left;
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    width: 20px;
+}
+
+
+#leftArticle input, #rightArticle input{
+    display: block;
+}
+
+

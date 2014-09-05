@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Flight Form</title>
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <section>
+            <form>
+                <h1>FLIGHT ORDER</h1>
+                <article id="leftArticle">
+                    <label for="fromCity"><p>From</p></label><br>
+                    <select name="fromCity" value="enter a city" id="fromCity">
+                        <option value="Value 1">London</option>
+                        <option value="Value 2">Berlin</option>
+                        <option value="Value 3">Madrid</option>
+                        <option value="Value 2">Sofia</option>
+                        <option value="Value 3">Barcelona</option>
+                    </select>
+                    <br><label for="depature"><p>Depature Date</p></label><br>
+                    <input name="depature" type="date" id="depature"/><br>
+                    <label for="return"><p>Return Date</p></label><br>
+                    <input name="return" type="date" id="return"/>
+                    
+                    <article id="subLeftArticle">
+                        <label for="12"><i>12+</i></label>
+                        <label for="212"><i>2-12</i></label>
+                        <label for="02"><i>0-2</i></label><br>
+                        <input type="number" min="12" max="24" id="12"/>
+                        <input type="number" min="2" max="12" id="212"/>
+                        <input type="number" min="0" max="2" id="02"/>
+                    </article>
+                </article>
+                
+                <article id="rightArticle">
+                    <label for="toCity"><p>To</p></label><br>
+                    <select name="toCity" value="enter a city" id="toCity">
+                        <option value="Value 1">London</option>
+                        <option value="Value 2">Berlin</option>
+                        <option value="Value 3">Madrid</option>
+                        <option value="Value 2">Sofia</option>
+                        <option value="Value 3">Barcelona</option>
+                    </select>
+                    <br><input type="checkbox" name="checkbox" id="checkbox"/>
+                    <p>Prefer directs</p><br>
+                    <p>Time Interval</p><br>
+                    <input name="arrivalTime" type="time"/>
+                    <input name="arrivalTime" type="time"/>
+                    <br><p>Time Interval</p><br>
+                    <input name="arrivalTime" type="time"/>
+                    <input name="arrivalTime" type="time"/>
+                    <label for="classChose"><p>Choose class</p></label>
+                    <select name="classChose" value="Economy" id="classChose">
+                        <option value="Value 1">Economy</option>
+                        <option value="Value 2">Fast</option>
+                        <option value="Value 3">Cheap</option>
+                    </select>
+                    <button type="button">Search</button>
+                </article>
+
+            </form>
+        </section>
+
+    </body>
+</html>

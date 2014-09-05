@@ -1,0 +1,46 @@
+body {
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header {
+    color: #f3be60;
+    font-family: Calibri;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+header img {
+    float: right;
+    margin-top: -15px;
+}
+
+ul {
+    list-style-type: square;
+    color: #f3be60;
+    font-family: Calibri;
+    font-size: 35px;
+    margin-left: 24px;
+    
+}
+
+span {
+    color: #FFF;
+}
+
+div {
+    text-decoration: none;
+    background: #20201e;
+    width: 87%;
+    color: #fbeec9;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Consolas;
+    font-size: 24px;
+    margin-left:5%;
+    margin-right:5%;
+}

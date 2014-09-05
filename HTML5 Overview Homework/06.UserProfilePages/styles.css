@@ -1,0 +1,16 @@
+body {
+    background-color: skyblue;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+span {
+    font-weight: bold;
+}

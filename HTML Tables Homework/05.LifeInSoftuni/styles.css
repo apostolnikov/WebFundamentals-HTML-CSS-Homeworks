@@ -1,0 +1,44 @@
+table, td, th {
+    border: 1px solid black;
+    font-family: sans-serif;
+    
+}
+th {
+    padding: 10px;
+    margin: 10px;
+    font-size: 50px;
+}
+
+#mainTable{
+    width: 600px;
+    height: 750px;
+    font-size: 30px;
+    table-layout: fixed;
+}
+
+#subTable {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+
+#padding{
+    padding: 7px;
+}
+
+.right-align{
+    text-align: right;
+}
+
+.vertical-align-top, #github{
+    vertical-align: top;
+    
+}
+
+.vertical-align-bottom, #food{
+    vertical-align: bottom;
+}
+#youtube, #fb{
+    text-align: center;
+}

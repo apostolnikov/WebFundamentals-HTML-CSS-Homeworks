@@ -1,0 +1,111 @@
+section {
+    background-color: #3B5997;
+    height: 600px;
+    width: 850px;
+    
+}
+
+article {
+    float: left;
+}
+
+img{
+    margin-left: 20px;
+}
+
+h1, h2, h3 ,h4 ,h5 h6 {
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 35px;
+    margin-top: -30px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+legend {
+    text-align: center;
+    font-weight: bolder;
+}
+
+fieldset{
+    width: 320px;
+    height: 250px;
+    color: #FFF;
+    border-radius: 10px;
+    margin-left: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+    
+}
+
+#leftField input {
+    border-radius: 5px;
+    height: 22px;
+    margin-bottom: 7px;
+
+}
+
+#leftButton {
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 17px;
+    border-radius: 10px;
+    height: 45px;
+    color: #3B5997;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+#rightButton {
+    width: 450px;
+    margin-top: 15px;
+    margin-left: 17px;
+    border-radius: 10px;
+    height: 45px;
+    color: #3B5997;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#rightField {
+    width: 420px;
+}
+
+#rightField input, select {
+    border-radius: 5px;
+    height: 22px;
+    margin-bottom: 7px;
+}
+
+#rightField .firstThree {
+    width: 32%;
+}
+
+#rightField .secondThree {
+    width: 16%;
+}
+
+#rightField .thirdThree {
+    width: 32%;
+}
+
+#rightField select {
+    height: 27px;
+}
+
+#rightField #street {
+    width: 31%;
+}
+
+#rightField textarea {
+    width: 99%;
+    height: 32%;
+}
